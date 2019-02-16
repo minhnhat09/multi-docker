@@ -21,7 +21,7 @@ after_success:
   - docker push minhnhat09/multi-server
   - docker push minhnhat09/multi-worker
 
- deploy:
+deploy:
   provider: elasticbeanstalk
   region: eu-west-3
   app: multi-docker
